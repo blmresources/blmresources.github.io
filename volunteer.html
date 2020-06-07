@@ -1,0 +1,12 @@
+---
+layout: category
+title: Volunteer
+category_id: "4"
+---
+<ul>
+  {% for item in site.data.volunteer %}
+   <li><a href="{{item.link}}">{{ item.name }}</a> [{{item.city}}, {{item.state}}]: {{item.description}}</li>
+  {% endfor %}
+</ul>
+
+<hr>

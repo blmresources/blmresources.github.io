@@ -1,0 +1,12 @@
+---
+layout: default
+---
+    <ul>
+    {% for item in site.data.navigation %}
+      {% if item.parent_cat_id == page.category_id %}
+        <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+
+    {{ content }}

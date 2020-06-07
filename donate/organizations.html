@@ -1,0 +1,9 @@
+---
+layout: default
+title: Donate to Organizations
+---
+<ul>
+    {% for item in site.data.donate-organizations %}
+     <li><a href="{{item.link}}">{{ item.name }}</a></li>
+    {% endfor %}
+ </ul>

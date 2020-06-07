@@ -1,0 +1,60 @@
+- name: Home
+  link: /
+  category_id: "0"  
+- name: Community Needs
+  link: /community-needs/index.html
+  category_id: "1"
+- name: Mental Health Resources
+  link: /community-needs/mental-health-resources.html
+  parent_cat_id: "1"
+- name: Mutual Aid Support
+  link: /community-needs/mutual-aid-support.html
+  parent_cat_id: "1"
+- name: Actions
+  link: /actions/index.html
+  category_id: "2"
+- name: Help
+  link: /actions/help.html
+  parent_cat_id: "2"  
+- name: Vote
+  link: /actions/vote.html
+  parent_cat_id: "2"
+- name: Protest
+  link: /actions/protest.html
+  parent_cat_id: "2"
+- name: Sign Petitions
+  link: /actions/sign-petitions.html
+  parent_cat_id: "2"
+- name: Donate
+  link: /donate/index.html
+  category_id: "3"
+- name: Donate to Mutual Aid Funds
+  link: /donate/mutual-aid-funds.html
+  parent_cat_id: "3"
+- name: Donate to Bail Funds
+  link: /donate/bail-funds.html
+  parent_cat_id: "3"
+- name: Donate to Families
+  link: /donate/families.html
+  parent_cat_id: "3"
+- name: Donate to Organizations
+  link: /donate/organizations.html
+  parent_cat_id: "3"
+- name: Donate to communities
+  link: /donate/communities.html
+  parent_cat_id: "3"
+- name: Volunteer
+  link: /volunteer.html
+  category_id: "4"
+- name: Education
+  link: /education/index.html
+  category_id: "5"
+- name: Books
+  link: /education/books.html
+  parent_cat_id: "5"
+- name: Films
+  link: /education/films.html
+  parent_cat_id: "5"
+- name: About this site
+  link: /README.html
+  category_id: "6"

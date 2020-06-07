@@ -1,0 +1,12 @@
+---
+layout: default
+title: Protest
+---
+
+<p>The right to join with fellow citizens in protest or peaceful assembly is critical to a functioning democracy and at the core of the First Amendment.</p>
+
+<ul>
+    {% for item in site.data.protest %}
+      <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+    {% endfor %}
+  </ul>

@@ -1,0 +1,9 @@
+---
+layout: default
+title: Donate to Mutual Aid Funds
+---
+<ul>
+    {% for item in site.data.donate-mutual-aid-funds %}
+     <li><a href="{{item.link}}">{{ item.name }}</a></li>
+    {% endfor %}
+  </ul>

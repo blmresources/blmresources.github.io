@@ -1,0 +1,10 @@
+---
+layout: default
+title: Mental Health Resources
+---
+
+<ul>
+  {% for item in site.data.mental-health-resources %}
+    <li><a href="{{ item.link }}">{{ item.name }}</a> [{{item.city}}|{{item.state}}]: {{item.description}}</li>
+  {% endfor %}
+</ul>

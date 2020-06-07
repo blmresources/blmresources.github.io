@@ -1,0 +1,19 @@
+---
+layout: default
+title: Home
+---
+
+<ul>
+  {% for item in site.data.navigation %}
+    {% if item.category_id %}
+        <li><h2><a href="{{ item.link }}">{{ item.name }}</a></h2></li>
+          {% for sub_category in site.data.navigation %}
+            <ul>
+            {% if sub_category.parent_cat_id == item.category_id %}
+              <li><a href="{{ sub_category.link }}">{{ sub_category.name }}</a></li>
+            {% endif %}
+            </ul>
+          {% endfor %}
+    {% endif %}  
+  {% endfor %}
+</ul>
